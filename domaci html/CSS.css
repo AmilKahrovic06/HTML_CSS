@@ -1,0 +1,26 @@
+body{
+    background-color:gray;
+}
+h1{
+    background-color:aqua;
+    font-size: 50px;
+}
+p{
+    background-color:aqua;
+    font-size:25px;
+    font-weight: 500;
+}
+div{
+    width:1000px;
+    height:1000px;
+    background-color:lightseagreen;
+    font-size:30px;
+    font-weight: 250;
+    
+}
+
+i{
+    background-color:aqua;
+    font-size:35px;
+    font-weight: 500;
+}

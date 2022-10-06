@@ -1,0 +1,22 @@
+body{
+    background-color:blanchedalmond;
+}
+h1{
+    background-color:aqua;
+    font-size: 50px;
+}
+b{
+    font-size:40px;
+    font-weight: 500;
+}
+p{
+    background-color:azure;
+    font-size:40px;
+    font-weight: 500;
+}
+div{
+    background-color:bisque;
+    width:100px;
+    height:100px;
+    
+}

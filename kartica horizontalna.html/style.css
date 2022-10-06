@@ -1,0 +1,26 @@
+body{
+    margin-top: 100px;
+    margin-left: 300px;
+}
+.main{
+    height: 300px;
+    width: 750px;
+    border: 1px solid black;
+    border-radius: 50px;
+    background-color:lightgrey;
+    /*text-align: center;*/
+    display: flex;
+   /*justify-content: space-around;*/
+}
+img{
+    width:300px;
+    height:300px;
+   
+}
+.tekst{
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 100px;
+    margin-top: 50px;
+
+}

@@ -1,0 +1,45 @@
+.Nav{
+    height: 100px;
+    background-color: chartreuse;
+    border: 1px solid black;
+    position: sticky;
+    top: 10px;
+    display: flex;
+}
+h3{
+    padding-right: 50px;
+    padding-left: 50px;
+}
+body{
+    height: 200vh;
+    position: relative;
+}
+
+/*. cd .. parent{
+    border: 1px solid black;
+    height: 250px;
+    background-color: blue;
+
+}
+.a{
+    border: 1px solid black;
+    height: 50px;
+    width: 300px;
+    background-color:burlywood;
+
+}
+.b{
+    border: 1px solid black;
+    height: 50px;
+    width: 300px;
+    background-color: red;
+
+}
+.c{
+    border: 1px solid black;
+    height: 50px;
+    width: 300px;
+    background-color:brown;
+    position: sticky;
+    top: 150px;
+}*/
