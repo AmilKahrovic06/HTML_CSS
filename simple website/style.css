@@ -1,4 +1,5 @@
 body{
+    background-color: cornflowerblue;
     padding:0;
     margin :0;
     height: 200vh;
@@ -61,4 +62,37 @@ ul li a:hover{
     background-color: white;
     color: black;
     transition: 0.6s ease;
+}
+.card1{
+    margin-top: 30px;
+width: 200px;
+border: 1px solid transparent;
+border-radius: 20px;
+background-color: aqua;
+}
+.card1:hover{
+    transition: 1s;
+background-color: blue;
+}
+.card2{
+margin-top: 30px;
+width: 200px;
+border: 1px solid transparent;
+border-radius: 20px;
+background-color:chocolate;
+}
+.card2:hover{
+    transition: 1s;
+    background-color: orangered;
+}
+.card3{
+    margin-top: 30px;
+width: 200px;
+border: 1px solid transparent;
+border-radius: 20px;
+background-color:darkgoldenrod;
+}
+.card3:hover{
+    transition: 1s;
+background-color: yellow;
 }

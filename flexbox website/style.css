@@ -1,0 +1,29 @@
+
+body{
+    justify-content: center;
+    background-color: aquamarine;
+}
+h1{
+    margin-left: 500px;
+}
+
+ul{
+    justify-content: center;
+    display:flex;
+    padding: 10px;
+    list-style: none;
+}
+ul li{
+    padding: 10px;
+}
+ul li a{
+    justify-content: space-around;
+    align-items: center;
+    height: 1cm;
+    width: 3cm;
+    display: flex;
+    color: white;
+    background-color: black;
+    border: 1px solid transparent;
+
+}
