@@ -1,4 +1,6 @@
 body{
+    background-size: cover;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://assets.simpleviewinc.com/simpleview/image/upload/c_limit,h_1200,q_75,w_1200/v1/clients/seattlesouthside/Transportation_Jet_Flying_Into_Sunset_AdobeStock_77372614_3319cb2e-ecd0-4191-b6ea-44a4386b3f6b.jpg);
     background-color: cornflowerblue;
     padding:0;
     margin :0;
@@ -68,6 +70,7 @@ ul li a:hover{
 width: 200px;
 border: 1px solid transparent;
 border-radius: 20px;
+color: black;
 background-color: aqua;
 }
 .card1:hover{
