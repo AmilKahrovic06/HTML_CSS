@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: bisque;
+}
+form{
+    padding-top: 70px;
+}
+
+#email{
+    padding: 10px;
+    border: 0px solid transparent;
+    border-radius: 15px;
+}
+#Sifra{
+    padding: 10px;
+    border: 0px solid transparent;
+    border-radius: 15px;
+}
+#name{
+    padding: 10px;
+    border: 0px solid transparent;
+    border-radius: 15px;
+}
+#lname{
+    padding: 10px;
+    border: 0px solid transparent;
+    border-radius: 15px;
+}
+#tel{
+    padding: 10px;
+    border: 0px solid transparent;
+    border-radius: 15px;
+}
+#btn{
+    width: 200px;
+    padding: 10px;
+    background-color: orange;
+    border: 0px solid transparent;
+    border-radius: 15px;
+}
+
+/* div h1{
+    display: flex;
+    justify-content: center;
+} */
+div{
+    margin-left: 500px;
+}
