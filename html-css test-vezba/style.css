@@ -37,11 +37,11 @@ nav{
     transition: 0.6s ease-in-out;
 }
 .nav li:hover{
-  box-shadow: inset 150px 0 0 0 #05386B;
+  box-shadow: inset 300px 0 0 0 #05386B;
   color: white;
   border-radius: 20px;
-  padding-top: 2px;
-  padding-bottom: 2px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 
 }
 .nav li a:hover{
@@ -112,3 +112,32 @@ footer #copyright{
 footer #rights{
     padding-bottom: 30px;
 }
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #05386B;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    border-radius: 20px;
+    color: white;
+  }
+  .dropdown-content li{
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: white;
+    height: 50px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+    color:white;
+  }
