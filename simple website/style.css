@@ -1,7 +1,6 @@
 body{
     background-size: cover;
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://assets.simpleviewinc.com/simpleview/image/upload/c_limit,h_1200,q_75,w_1200/v1/clients/seattlesouthside/Transportation_Jet_Flying_Into_Sunset_AdobeStock_77372614_3319cb2e-ecd0-4191-b6ea-44a4386b3f6b.jpg);
-    background-color: cornflowerblue;
     padding:0;
     margin :0;
     height: 200vh;
@@ -9,7 +8,7 @@ body{
 header{
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://wallpaperaccess.com/full/1191990.jpg);
     background-size: cover;
-    height: 100vh;
+    height: 200vh;
 }
 ul{
     float: right;
@@ -89,7 +88,7 @@ background-color:chocolate;
     background-color: orangered;
 }
 .card3{
-    margin-top: 30px;
+margin-top: 30px;
 width: 200px;
 border: 1px solid transparent;
 border-radius: 20px;
@@ -99,3 +98,30 @@ background-color:darkgoldenrod;
     transition: 1s;
 background-color: yellow;
 }
+@media screen and (max-width: 800px) {
+    ul, li ,a{
+      width: 100%;
+      padding: 15px;
+      display: block;
+      
+      /* The width is 100%, when the viewport is 800px or smaller */
+    }
+    .title{
+        position: absolute;
+        top: 600px;
+    }
+    .button{
+        position: absolute;
+        top: 800px;
+        left: 30%;
+    }
+    img{
+        margin-right: 60%;
+        margin-left: 40%;
+    }
+    ul{
+        text-align: center;
+    }
+   }
+   
+   /* domaci-da se uredi simple website da bude responsive  */
