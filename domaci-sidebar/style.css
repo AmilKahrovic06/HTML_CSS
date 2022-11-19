@@ -3,14 +3,95 @@
     margin: 0;
     font-family: 'Comfortaa', cursive;
 }
+body{
+    background-image:  linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(https://img.freepik.com/premium-photo/grunge-wood-panels-texture_174699-4.jpg?w=2000);
+
+    
+}
+nav{
+    background-color: white;
+    width: 100%;
+    height: min-content;
+    display: flex;
+    justify-content: flex-end;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+}
+nav li{
+    padding: 15px;
+    list-style-type: none;
+    border-radius: 5px;
+    transition: 0.6s ease-in-out;
+    margin-right: 15px;
+   
+}
+nav h1{
+    position: absolute;
+    left: 250px;
+    top: 10px;
+}
+.nav li:hover{
+   background-color: dodgerblue; 
+   color: white;
+}
 .side{
+    flex: 1;
     padding-top: 60px;
     width: 250px;
-    height: 150%;
+    height: 100%;
     background-color:white;
     -webkit-box-shadow: 12px -17px 38px -11px rgba(0,0,0,0.75);
 -moz-box-shadow: 12px -17px 38px -11px rgba(0,0,0,0.75);
 box-shadow: 12px -17px 38px -11px rgba(0,0,0,0.75);
+}
+.main{
+    display: flex;
+}
+.home{
+    flex: 5;    
+    flex-wrap: wrap;
+}
+
+.card1{
+    background-color: white;
+   padding: 15px;
+   border: none;
+   border-radius: 15px;
+   -webkit-box-shadow: 11px 9px 24px -12px rgba(0,0,0,0.75);
+-moz-box-shadow: 11px 9px 24px -12px rgba(0,0,0,0.75);
+box-shadow: 11px 9px 24px -12px rgba(0,0,0,0.75);
+height: 150px;
+width: 250px;
+transition: 0.7s ease-in-out;
+}
+.card1 a{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    transition: 0.5s ease-in-out;
+    
+}
+.card1 h1{
+    display: flex;
+    justify-content: center;
+}
+.card1:hover{
+    height: 200px;
+    width: 300px;
+    background-color: dodgerblue;
+    color: white;
+}
+.card1 a:hover{
+    color: white;
+}
+
+.main .home{
+    display: flex;
+    justify-content: space-evenly;
 }
 .side h1{
     display: flex;
@@ -65,9 +146,14 @@ box-shadow: 12px -17px 38px -11px rgba(0,0,0,0.75);
     border-radius: 15px;
     transition: 0.6s ease-in-out;
 }
-li:hover{
+.primary-list li:hover{
+    text-decoration: underline;
+   background-color: grey;
+    border-radius: 0px 20px 20px 0px;
+}
+.others-list li:hover{
      text-decoration: underline;
-    background-color: rgb(201, 201, 201);
+   background-color: grey;
     border-radius: 0px 20px 20px 0px;
     
 }
@@ -86,14 +172,14 @@ span{
  li a{
     position: relative;
     top: -5px;
-
 } 
 
-.material-symbols-outlined {
+
+/* .material-symbols-outlined {
   
   font-variation-settings:
   'FILL' 0,
   'wght' 400,
   'GRAD' 0,
   'opsz' 48
-}
+} */
