@@ -4,7 +4,8 @@
     font-family: 'Comfortaa', cursive;
 }
 body{
-    background-image:  linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(https://img.freepik.com/premium-photo/grunge-wood-panels-texture_174699-4.jpg?w=2000);
+    background-image:  linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(https://upload.wikimedia.org/wikipedia/commons/8/85/Sky-3.jpg);
+    background-size: cover;
 
     
 }
